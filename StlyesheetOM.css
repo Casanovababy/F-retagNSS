@@ -49,13 +49,13 @@ header {
 p {
   font-size: x-large;
 }
-#våra-båtar {
+#vara-batar {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.4);
   padding-top: 20px;
   padding-bottom: 40px;
 }
-.Båtar {
+.batar {
   display: flex;
   flex-wrap: wrap;
   display: grid;
@@ -63,22 +63,16 @@ p {
   grid-template-rows: 10% 1fr 10% 1fr;
   grid-gap: 20px;
 }
-.Båtar,
+.batar,
 div {
   width: 100%;
 }
-.Båtar,
+.batar,
 img {
   width: 100%;
 }
-.backgrundsBild {
-  height: 90vh;
-  position: relative;
-  background-image: url("bakgrundOM.jpg");
-  background-attachment: fixed;
-}
 
-.Bilder {
+.bilder {
   background-color: rgba(0, 0, 0, 0.2);
   display: flex;
   flex-wrap: wrap;
@@ -87,11 +81,11 @@ img {
   grid-template-rows: 1fr;
   text-align: center;
 }
-.Bilder,
+.bilder,
 div {
   width: 100%;
 }
-.Bilder,
+.bilder,
 img {
   width: 100%;
 }
@@ -101,40 +95,40 @@ img {
   padding-right: 20%;
   background-color: rgba(0, 0, 0, 0.2);
 }
-.huvudtränare {
+.huvudtranare {
   display: flex;
   flex-wrap: wrap;
   display: grid;
   grid-template-columns: 20% 1fr 10% 1fr 10% 1fr 20%;
   grid-template-rows: 10% 1fr;
 }
-.Hjälptränare {
+.hjalptranare {
   display: flex;
   flex-wrap: wrap;
   display: grid;
   grid-template-columns: 30% 1fr 10% 1fr 30%;
   grid-template-rows: 10% 1fr;
 }
-#tränare {
+#tranare {
   padding-top: 20px;
   padding-bottom: 40px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.huvudtränare,
+.huvudtranare,
 div {
   width: 100%;
 }
-.huvudtränare,
+.huvudtranare,
 img {
   width: 100%;
 }
-.Hjälptränare,
+.hjälptranare,
 div {
   width: 100%;
 }
-.Hjälptränare,
+.hjälptranare,
 img {
   width: 100%;
 }
@@ -147,16 +141,16 @@ footer {
   grid-template-rows: 10% 1fr 10%;
   gap: 20px;
   grid-template-areas:
-    ". hittaHit . . "
+    ". hitta-hit . ."
     ". maps tillbaka ."
     ". cred cred .";
 }
-.hittaHit,
+.hitta-hit,
 h2 {
   padding-left: 2%;
 }
-.hittaHit {
-  grid-area: hittaHit;
+.hitta-hit {
+  grid-area: hitta-hit;
 }
 .maps {
   padding-left: 20px;
