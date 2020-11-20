@@ -1,0 +1,32 @@
+body {
+  background-image: url("bakgrundOM.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: antiquewhite;
+  font-family: "Roboto Condensed", sans-serif;
+}
+header {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1%;
+  letter-spacing: 2px;
+}
+header a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 20px;
+}
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+}
+.grid-container img {
+  padding-right: 100px;
+  padding-top: 10px;
+}

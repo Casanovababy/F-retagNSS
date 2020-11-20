@@ -1,0 +1,195 @@
+body {
+  background-image: url("bakgrundOM.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: antiquewhite;
+  font-family: "Roboto Condensed", sans-serif;
+}
+header {
+  font-size: x-large;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 2px;
+}
+header a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 20px;
+}
+header {
+  padding: 1%;
+  font-size: x-large;
+  text-decoration: none;
+}
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+}
+.grid-container img {
+  padding-right: 100px;
+  padding-top: 10px;
+}
+.information {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-bottom: 2%;
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  grid-template-rows: 10% 1fr;
+  text-align: center;
+}
+.information h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+p {
+  font-size: x-large;
+}
+#våra-båtar {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.Båtar {
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 20% 1fr 1fr 20%;
+  grid-template-rows: 10% 1fr 10% 1fr;
+  grid-gap: 20px;
+}
+.Båtar,
+div {
+  width: 100%;
+}
+.Båtar,
+img {
+  width: 100%;
+}
+.backgrundsBild {
+  height: 90vh;
+  position: relative;
+  background-image: url("bakgrundOM.jpg");
+  background-attachment: fixed;
+}
+
+.Bilder {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 20% 1fr 5% 1fr 5% 1fr 20%;
+  grid-template-rows: 1fr;
+  text-align: center;
+}
+.Bilder,
+div {
+  width: 100%;
+}
+.Bilder,
+img {
+  width: 100%;
+}
+#historia {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.huvudtränare {
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 20% 1fr 10% 1fr 10% 1fr 20%;
+  grid-template-rows: 10% 1fr;
+}
+.Hjälptränare {
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 30% 1fr 10% 1fr 30%;
+  grid-template-rows: 10% 1fr;
+}
+#tränare {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.huvudtränare,
+div {
+  width: 100%;
+}
+.huvudtränare,
+img {
+  width: 100%;
+}
+.Hjälptränare,
+div {
+  width: 100%;
+}
+.Hjälptränare,
+img {
+  width: 100%;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.fot {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+  grid-template-rows: 10% 1fr 10%;
+  gap: 20px;
+  grid-template-areas:
+    ". hittaHit . . "
+    ". maps tillbaka ."
+    ". cred cred .";
+}
+.hittaHit,
+h2 {
+  padding-left: 2%;
+}
+.hittaHit {
+  grid-area: hittaHit;
+}
+.maps {
+  padding-left: 20px;
+  grid-area: maps;
+  width: 100%;
+}
+.maps iframe {
+  width: 100%;
+}
+.tillbaka {
+  grid-area: tillbaka;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tillbaka a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 20px;
+  border-style: solid;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.tillbaka a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.cred {
+  text-align: center;
+  grid-area: cred;
+}
+.border {
+  border-style: solid;
+  border-color: seashell;
+  border-radius: 10px;
+}
